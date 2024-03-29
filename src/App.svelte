@@ -47,8 +47,7 @@
     border: 1px solid #eee;
     margin-top: 10px;
   }
-  /* Sounds like this is not possible to target things inside an @html from here. */
-  /* .tabPage > h3 {
+  main .tabPage > :global(h3) {
     margin: 0;
-  } */
+  }
 </style>
